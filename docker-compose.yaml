@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  postgre_compose:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: j2g9n4
+    ports:
+      - "5432:5432"
